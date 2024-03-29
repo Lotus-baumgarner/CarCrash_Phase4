@@ -43,6 +43,14 @@ Using Train Test split, and preprocessing using Pipeline and column transformer,
 
 
 3. Model 3: XGBoost Classifier, received accuracy score of 69, which was similar to our Baseline, and concluded as our final model results.
+   Below are XGBoost Classification report and confusion matrix.https://github.com/YamunaU75/CarCrash_Phase4/blob/main/Data/confusion_matrix.png
+  <p align="center">
+  <img src = "https://github.com/YamunaU75/CarCrash_Phase4/blob/main/Data/XGB_CR.png  " width="400" height="250"
+</p>
+
+<p align="center">
+  <img src = "https://github.com/YamunaU75/CarCrash_Phase4/blob/main/Data/confusion_matrix.png  " width="400" height="250"
+</p>
 
 
 4. Model 4: We tried our tensorflow model with 2 Hidden layers, activation function as softmax for multi classification target, optimizer Adam, loss as sparse_categorical_crossentropy, metrics accuracy, epochs 30, added regularization and validation size 0.2. We came up with similar accuracy score 68, validation accuracy was doing better than training accuracy score.
