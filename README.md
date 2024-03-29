@@ -9,7 +9,7 @@ This project is about finding the primary contributory causes of car accidents i
 National Highway Traffic Safety Administration source says Drivers are 94% responsible for car crashes.
 source: https://crashstats.nhtsa.dot.gov
 <p align="center">
-  <img src = "https://github.com/YamunaU75/  " width="750" height="559"
+  <img src = "https://github.com/YamunaU75/CarCrash_Phase4/blob/main/Data/NH%20table.png  " width="400" height="250"
 </p>
 
 ## Dataset:
@@ -38,18 +38,14 @@ Using Train Test split, and preprocessing using Pipeline and column transformer,
 
 1. We ran our baseline model with logistic regression. Accuracy score was 69 for our balanced dataset.
 
-**Logistic Regression**
 
 2. Model 2: Random Forest Classifier with tuned hyper parameters, we got accuracy score of 68.
 
-**Random Forest **
 
 3. Model 3: XGBoost Classifier, received accuracy score of 69, which was similar to our Baseline, and concluded as our final model results.
 
-**XGBoost **
 
 4. Model 4: We tried our tensorflow model with 2 Hidden layers, activation function as softmax for multi classification target, optimizer Adam, loss as sparse_categorical_crossentropy, metrics accuracy, epochs 30, added regularization and validation size 0.2. We came up with similar accuracy score 68, validation accuracy was doing better than training accuracy score.
-
 
 
 ## Conclusion:
@@ -65,3 +61,13 @@ We also checked Tensorflow model to find if we can get better results by choosin
 1. We have to work more on hyper parameter tuning and Feature Importance to get better accuracy score
 2. Offering better discounts for Drivers with safe driving.
 3. Focus on Drivers who live North side of Chicago who has frequent crashes.
+
+## Repository Structure
+
+```
+├── Data
+├── .gitignore
+├── Chicago_CarCrash presentation
+├── Chicago_CarCrash.ipynb
+└── README.md
+```
