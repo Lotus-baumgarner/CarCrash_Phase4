@@ -1,4 +1,5 @@
 *.csv
+*.png
 .ipynb_checkpoints/
 
 # Jupyter Notebook
