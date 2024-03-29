@@ -43,13 +43,13 @@ Using Train Test split, and preprocessing using Pipeline and column transformer,
 
 
 3. Model 3: XGBoost Classifier, received accuracy score of 69, which was similar to our Baseline, and concluded as our final model results.
-   Below are XGBoost Classification report and confusion matrix.https://github.com/YamunaU75/CarCrash_Phase4/blob/main/Data/confusion_matrix.png
+   Below are XGBoost Classification report and confusion matrix.
   <p align="center">
   <img src = "https://github.com/YamunaU75/CarCrash_Phase4/blob/main/Data/XGB_CR.png  " width="400" height="250"
 </p>
 
 <p align="center">
-  <img src = "https://github.com/YamunaU75/CarCrash_Phase4/blob/main/Data/confusion_matrix.png  " width="400" height="400"
+  <img src = "https://github.com/YamunaU75/CarCrash_Phase4/blob/main/Data/confusion_matrix.png  " width="600" height="450"
 </p>
 
 
