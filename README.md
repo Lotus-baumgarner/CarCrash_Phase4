@@ -32,11 +32,11 @@ Target value has class imbalance, we downsampled our dataset to balance Target c
 to find the right model. Balanced dataset contains 44K rows and 16 columns.
 
 
-## Baseline Model Logistic Regression:
+## Models Used:
 
 Using Train Test split, and preprocessing using Pipeline and column transformer,
 
-1. We ran our baseline model with logistic regression. Accuracy score was 69 for our balanced dataset.
+1. Model 1: We ran our baseline model with logistic regression. Accuracy score was 69 for our balanced dataset.
 
 
 2. Model 2: Random Forest Classifier with tuned hyper parameters, we got accuracy score of 68.
