@@ -49,7 +49,7 @@ Using Train Test split, and preprocessing using Pipeline and column transformer,
 </p>
 
 <p align="center">
-  <img src = "https://github.com/YamunaU75/CarCrash_Phase4/blob/main/Data/confusion_matrix.png  " width="400" height="250"
+  <img src = "https://github.com/YamunaU75/CarCrash_Phase4/blob/main/Data/confusion_matrix.png  " width="400" height="400"
 </p>
 
 
